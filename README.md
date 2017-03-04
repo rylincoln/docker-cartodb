@@ -24,7 +24,7 @@ You will need a FQDN with an A record pointing to your server's IP address.  You
 Go make a sandwich and watch some youtube videos, this will take a while... (About an hour as of the time I wrote this)
 ```
 git clone https://github.com/chriswhong/docker-cartodb.git
-docker build -t="cartodb" docker-cartodb/
+sudo docker build -t="cartodb" docker-cartodb/
 ```
 ###Run the Container
 This command runs the container with the three main services mapped to the host machine.  `3000` for the frontend, `8080` for the Windshaft Map Tiler (Maps API), and `8181` for the SQL API.
